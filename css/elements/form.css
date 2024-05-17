@@ -1,0 +1,47 @@
+form {
+    margin: 0 auto;
+    width: 60%; 
+}
+
+label {
+    display: block; /* Display labels on new lines */
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:#ccc ;
+}
+
+/* Style text input fields */
+input[type="text"],[type="number"] {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px 0 5px 5px;
+    background-color: #1f2430;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+button{
+    width: 25%;
+    height: 30px;
+    background-color: var(--color1);
+    color: #ccc;
+    border: 1px solid #1f241f;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+    font-weight: bold;
+}
+button:hover{
+    background-color: var(--color3);
+    color: #1f241f;
+    border: 1px solid #626f86;
+    transition: 0.5s ;
+}

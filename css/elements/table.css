@@ -1,0 +1,27 @@
+.container{
+    width: 60%;
+    margin: auto;
+}
+table {
+    width: 100%;
+    margin: auto;
+    color: #ccc;
+    border: 1px solid #ccc; 
+}
+.table-title{
+    color: #ccc;
+}
+/* Styles for table headers */
+th {
+    padding: 0.5rem 1rem; /* Add some padding */
+    border: 1px solid #ccc; /* Add a thin border */
+}
+
+/* Styles for table cells */
+td {
+    padding: 0.5rem 1rem; /* Add some padding */
+    border: 1px solid #343a40; /* Add a thin border */
+    text-align: center; /* Align text to the left */
+
+}
+

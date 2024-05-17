@@ -1,0 +1,60 @@
+
+:root {
+  --color1: #4285f4;
+  --color2: #9b72cb;
+  --color3: #d96570;
+}
+
+  .main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 0;
+  }
+
+  .p-main{
+    color: #ccc;
+    font-size: 1.2rem;
+  }
+  .p-white{
+    color: #ccc;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    width: 100%; 
+    cursor: pointer;
+  }
+  
+  .card {
+    width: 250px;
+    background-color: #4285f4; 
+    border-radius: 0.5rem; 
+    padding: 1rem;
+    margin: 0.5rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);; 
+    transition: all 0.2s ease-in-out;
+    text-align: center; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    background-color: #d96570;
+  }
+  
+  
+.title {
+  margin: 150px 50px;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  display: inline-block;
+  color: transparent;
+  background: linear-gradient(74deg, var(--color1), var(--color2), var(--color3), var(--color1), var(--color2), var(--color3), var(--color1), var(--color2), var(--color3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,75 @@
+
+.pdf-container {
+    width: 60%;
+    margin: auto;
+}
+
+
+.invoice{
+    position: relative;
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column; /* Stack content vertically */
+    width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    line-height: normal;
+    background-color: #fff;
+}
+
+p{
+    color: black;
+    font-weight: 400;
+    line-height: 0%;
+    font-size: 1rem;
+}
+.p-with-line-height{
+    line-height: normal;
+
+}
+.big-size{
+    font-size: 3rem;
+}
+.table{
+    color: black;
+    border-color: black;
+    margin: 15px 0;
+}
+.right{
+text-align: right;
+line-height: 0%;
+
+}
+.left{
+text-align: left;
+}
+.center{
+    text-align: center;
+}
+.companyName{
+    font-size: 1.5rem;
+}
+.bold{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.big-size{
+    font-size: 1.5rem;
+}
+.customer-info{
+    display: flex;
+    flex-direction: column;
+    line-height: 0%;
+}
+.small{
+    font-size: 0.8rem;
+    line-height: 0%;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+}
